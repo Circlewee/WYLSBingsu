@@ -35,7 +35,7 @@ const WritePage: React.FC = () => {
   };
 
   const handleClick = () => {
-    navigate(`/${params}`);
+    navigate(`/${params.userId}`);
   };
 
   return (
